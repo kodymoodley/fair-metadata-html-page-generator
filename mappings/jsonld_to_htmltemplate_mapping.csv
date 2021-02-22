@@ -25,6 +25,7 @@
 "publisher;name","publisherpersonname","publisher"
 "publisher;jobTitle","publisherpersonjobTitle","publisher"
 "publisher;email","publisheremail","publisher"
+"publisher;image","publisherimage","publisher"
 "publisher;affiliation;name","publisherpersonaffiliationname","publisher"
 "publisher;affiliation;url;@value","publisherpersonaffiliationurl","publisher"
 "publisher;affiliation;logo;contentUrl","publisherpersonaffiliationimage","publisher"

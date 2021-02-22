@@ -31,6 +31,7 @@
             "familyName": "Hernandez Serrano",
             "jobTitle": "Data Scientist",
             "email": "p.hernandezserrano@maastrichtuniversity.nl",
+            "image": "https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/p.hernandezserrano/p.hernandezserrano_PP%20%287%20of%2013%29.jpg?itok=IUdreoIw&timestamp=1610395201",
             "affiliation": {
                 "@type": "Organization",
                 "name": "Institute of Data Science",
@@ -51,6 +52,7 @@
         "givenName": "Kody",
         "familyName": "Moodley",
         "jobTitle": "Postdoctoral researcher",
+        "image": "https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301",
         "email": "kody.moodley@maastrichtuniversity.nl",
         "affiliation": {
             "@type": "Organization",
