@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="width" />
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script type="application/ld+json">
+      {'@context': 'https://schema.org', '@type': 'Dataset', 'name': 'ECJ case law text similarity analysis', 'description': 'results from a study to analyse how closely the textual similarity of ECJ cases resembles the citation network of the cases.', 'creator': {'@type': 'Person', 'name': 'Kody Moodley', 'givenName': 'Kody', 'familyName': 'Moodley', 'image': 'https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301', 'jobTitle': 'Postdoctoral researcher', 'email': 'kody.moodley@maastrichtuniversity.nl', 'affiliation': {'@type': 'Organization', 'name': 'Maastricht Law & Tech Lab', 'url': {'@type': 'URL', '@value': 'https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab'}, 'logo': {'@type': 'ImageObject', 'contentUrl': 'https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF'}}}, 'contributor': [{'@type': 'Person', 'givenName': 'Pedro', 'familyName': 'Hernandez Serrano', 'jobTitle': 'Data Scientist', 'email': 'p.hernandezserrano@maastrichtuniversity.nl', 'affiliation': {'@type': 'Organization', 'name': 'Institute of Data Science', 'url': {'@type': 'URL', '@value': 'https://www.maastrichtuniversity.nl/research/institute-data-science'}, 'logo': {'@type': 'ImageObject', 'contentUrl': 'https://avatars.githubusercontent.com/u/36262526?s=280&v=4'}}}], 'publisher': {'@type': 'Person', 'name': 'Kody Moodley', 'givenName': 'Kody', 'familyName': 'Moodley', 'jobTitle': 'Postdoctoral researcher', 'email': 'kody.moodley@maastrichtuniversity.nl', 'affiliation': {'@type': 'Organization', 'name': 'Maastricht Law & Tech Lab', 'url': {'@type': 'URL', '@value': 'https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab'}, 'logo': {'@type': 'ImageObject', 'contentUrl': 'https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF'}}}, 'version': 'v2.0', 'license': 'https://www.gnu.org/licenses/agpl-3.0.txt', 'encodingFormat': 'CSV', 'dateCreated': {'@type': 'Date', '@value': '2019-09-14'}, 'datePublished': {'@type': 'Date', '@value': '2020-07-01'}, 'distribution': {'@type': 'DataDownload', 'contentUrl': {'@type': 'URL', '@value': 'https://zenodo.org/record/4228652/files/docona_cjeu_results_2018_v2_html.zip?download=1'}, 'encodingFormat': 'application/zip', 'contentSize': '1.1MB'}, 'url': 'https://doi.org/10.5281/zenodo.4228652', 'inLanguage': {'@type': 'Language', 'name': 'EN', 'alternateName': 'EN'}, 'temporalCoverage': '2019-09-14/2020-07-01', 'keywords': ['case law', 'court decisions', 'text similarity', 'network analysis', 'word embeddings', 'word2vec', 'ecj', 'cjeu', 'EU court of justice', 'citations'], 'isBasedOn': [{'@type': 'SoftwareApplication', 'name': 'docona', 'description': 'DoConA (Document Content and Citation Analysis Pipeline) is an open source, configurable and extensible Python tool to analyse the level of agreement between the citation network of a set of textual documents and the textual similarity of these documents.', 'applicationCategory': 'Python script', 'operatingSystem': 'cross-platform', 'version': '1.0', 'url': {'@type': 'URL', '@value': 'https://github.com/MaastrichtU-IDS/docona'}}, {'@type': 'CreativeWork', 'name': 'ECJ case law and citation network', 'description': 'Citation network and full text documents of each judgement by the Court of Justice of the European Union that was published publicly on the EUR-LEX website (https://eur-lex.europa.eu/homepage.html) up until December 2018', 'version': '2.0', 'url': {'@type': 'URL', '@value': 'https://doi.org/10.5281/zenodo.3926736'}}], 'citation': {'@type': 'CreativeWork', 'name': 'Similarity and Relevance of Court Decisions: A Computational Study on CJEU Cases', 'creator': [{'@type': 'Person', 'name': 'Kody Moodley'}, {'@type': 'Person', 'name': 'Pedro Hernandez Serrano'}, {'@type': 'Person', 'name': 'Gijs van Dijck'}, {'@type': 'Person', 'name': 'Michel Dumontier'}], 'publisher': {'@type': 'Organization', 'name': 'IOS press', 'url': {'@type': 'URL', '@value': 'https://www.iospress.nl'}}, 'datePublished': {'@type': 'Date', '@value': '2019-12-10'}, 'sameAs': {'@type': 'URL', '@value': 'https://doi.org/10.3233/FAIA190307'}}}
+    </script>
+    <title>ECJ case law text similarity analysis v2.0</title>
+  </head>
+  
+  <body class="html">
+    
+    <div id="navbar" class="topnav">
+      <a class="navoption active" href="#dataset">Dataset</a>
+      <a class="navoption" href="#author">Author</a>
+      <a class="navoption" href="#contributors">Contributors</a>
+      <a class="navoption" href="#publisher">Publisher</a>
+      <a class="navoption" href="#download">Download</a>
+      <a class="navoption" href="#software">Generated by</a>
+      <a class="navoption" href="#depdataset">Depends on</a>
+      <a class="navoption" href="#publication">Publication</a>
+    </div>
+
+    <script>
+      // Get the container element
+      var btnContainer = document.getElementById("navbar");
+
+      // Get all buttons with class="btn" inside the container
+      var btns = btnContainer.getElementsByClassName("navoption");
+
+      // Loop through the buttons and add the active class to the current/clicked button
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          current[0].className = current[0].className.replace(" active", "");
+          this.className += " active";
+        });
+      }
+    </script>
+
+    <div id="dataset">
+      <div class="content">
+        <div property="dc:title"><h1><a href="https://www.schema.org/Dataset">Dataset</a></h1></div>
+          <div><a href="http://schema.org/name">name:</a><br> ECJ case law text similarity analysis</div>
+          <div><a href="http://schema.org/description">description:</a><br> results from a study to analyse how closely the textual similarity of ECJ cases resembles the citation network of the cases.</div>
+          <div><a href="http://schema.org/version">version:</a><br> v2.0</div>
+          <div><a href="http://schema.org/encodingFormat">format:</a><br> CSV</div>
+          <div><a href="http://schema.org/dateCreated">date created:</a><br> 2019-09-14</div>
+          <div><a href="http://schema.org/datePublished">date published:</a><br> 2020-07-01</div>
+          <div><a href="http://schema.org/license">license:</a><br> <a href="https://www.gnu.org/licenses/agpl-3.0.txt">https://www.gnu.org/licenses/agpl-3.0.txt</a> </div>
+          <div><a href="http://schema.org/url">page:</a><br> <a href="https://doi.org/10.5281/zenodo.4228652">https://doi.org/10.5281/zenodo.4228652</a> </div>
+          <div><a href="http://schema.org/inLanguage">language:</a><br> EN</div>
+          <div><a href="http://schema.org/temporal">update frequency:</a><br> </div>
+          <div><a href="http://schema.org/temporalCoverage">coverage:</a><br> 2019-09-14/2020-07-01</div>
+          <div><a href="http://schema.org/keywords">keywords:</a>
+            <ul>
+              
+                <li> case law </li>
+              
+                <li> court decisions </li>
+              
+                <li> text similarity </li>
+              
+                <li> network analysis </li>
+              
+                <li> word embeddings </li>
+              
+                <li> word2vec </li>
+              
+                <li> ecj </li>
+              
+                <li> cjeu </li>
+              
+                <li> EU court of justice </li>
+              
+                <li> citations </li>
+              
+            </ul>
+          </div>
+      </div>
+    </div>
+
+    <div id="author">
+      <div class="content">
+        <div property="schema:creator"><h1><a href="https://www.schema.org/creator">Author</a></h1></div>
+        <div><a href="http://schema.org/image">photo:</a><br> <img src="https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301" alt="Photo of dataset author" width="150"></img></div>
+        <div><a href="http://schema.org/name">name:</a><br> Kody Moodley</div>
+        <div><a href="http://schema.org/jobTitle">job title:</a><br> Postdoctoral researcher</div>
+        <div><a href="http://schema.org/email">email:</a><br> kody.moodley@maastrichtuniversity.nl</div>
+        <div><a href="http://schema.org/affiliation">affiliation name:</a><br> Maastricht Law & Tech Lab </div>
+        <div><a href="http://schema.org/url">affiliation webpage:</a><br> <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab">https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab</a> </div>
+        <div><a href="http://schema.org/logo">affiliation logo:</a><br> <img src="https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF" alt="Employing organisation of the dataset author" width="150"></img></div>
+      </div>
+    </div>
+
+    <div id="contributors">
+      <div class="content">
+        <div property="dc:contributors"><h1><a href="https://www.schema.org/contributor">Contributors</a></h1></div>
+          
+            <div class="contributor">
+              <div><a href="http://schema.org/image">photo:</a><br> <img src="" alt="Photo of dataset contributor" width="150"></img></div>
+              <div><a href="http://schema.org/name">name:</a><br> Pedro Hernandez Serrano</div>
+              <div><a href="http://schema.org/jobTitle">job title:</a><br> Data Scientist</div>
+              <div><a href="http://schema.org/email">email:</a><br> p.hernandezserrano@maastrichtuniversity.nl</div>
+              <div><a href="http://schema.org/affiliation">affiliation name:</a><br> Institute of Data Science </div>
+              <div><a href="http://schema.org/url">affiliation webpage:</a><br> <a href="https://www.maastrichtuniversity.nl/research/institute-data-science">https://www.maastrichtuniversity.nl/research/institute-data-science</a> </div>
+              <div><a href="http://schema.org/logo">affiliation logo:</a><br> <img src="https://avatars.githubusercontent.com/u/36262526?s=280&v=4" alt="Employing organisation of the dataset contributor" width="150"></img></div>
+            </div>
+          
+      </div>
+    </div>
+
+    <div id="publisher">
+      <div class="content">
+        <div property="dc:publisher"><h1><a href="https://www.schema.org/publisher">Publisher</a></h1></div>
+        
+          <div class="publisher-person">
+            <div><a href="http://schema.org/name">name:</a><br> Kody Moodley</div>
+            <div><a href="http://schema.org/jobTitle">job title:</a><br> Postdoctoral researcher</div>
+            <div><a href="http://schema.org/email">email:</a><br> kody.moodley@maastrichtuniversity.nl</div>
+            <div><a href="http://schema.org/affiliation">affiliation name:</a><br> Maastricht Law & Tech Lab</div>
+            <div><a href="http://schema.org/url">affiliation webpage:</a><br> <a href="https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab">https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab</a> </div>
+            <div><a href="http://schema.org/logo">affiliation logo:</a><br> <img src="https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF" alt="Employing organisation of the dataset publisher" width="150"></img> </div>
+          </div>
+        
+      </div>
+    </div>
+
+    <div id="download">
+      <div class="content">
+        <div property="dc:download"><h1><a href="https://www.schema.org/distribution">Download</a></h1></div>
+          <div><a href="http://schema.org/contentUrl">url:</a><br> <a href="https://zenodo.org/record/4228652/files/docona_cjeu_results_2018_v2_html.zip?download=1">https://zenodo.org/record/4228652/files/docona_cjeu_results_2018_v2_html.zip?download=1</a></div>
+          <div><a href="http://schema.org/encodingFormat">format:</a><br> application/zip</div>
+          <div><a href="http://schema.org/contentSize">size:</a><br> 1.1MB</div>
+      </div>
+    </div>
+
+    <div id="software">
+      <div class="content">
+        <div property="prov:wasGeneratedBy"><h1><a href="https://www.w3.org/TR/prov-o/#wasGeneratedBy">Generated by</a></h1></div>
+          <div><a href="http://schema.org/name">name:</a><br> docona</div>
+          <div><a href="http://schema.org/description">description:</a><br> DoConA (Document Content and Citation Analysis Pipeline) is an open source, configurable and extensible Python tool to analyse the level of agreement between the citation network of a set of textual documents and the textual similarity of these documents.</div>
+          <div><a href="http://schema.org/applicationCategory">category:</a><br> Python script</div>
+          <div><a href="http://schema.org/operatingSystem">operating system:</a><br> cross-platform </div>
+          <div><a href="http://schema.org/version">version:</a><br> 1.0 </div>
+          <div><a href="http://schema.org/url">url:</a><br> <a href="https://github.com/MaastrichtU-IDS/docona">https://github.com/MaastrichtU-IDS/docona</a></div>
+      </div>
+    </div>
+
+    <div id="depdataset">
+      <div class="content">
+        <div property="prov:wasDerivedFrom"><h1><a href="https://www.w3.org/TR/prov-o/#wasDerivedFrom">Depends on</a></h1></div>
+          <div><a href="http://schema.org/name">name:</a><br> ECJ case law and citation network</div>
+          <div><a href="http://schema.org/description">description:</a><br> Citation network and full text documents of each judgement by the Court of Justice of the European Union that was published publicly on the EUR-LEX website (https://eur-lex.europa.eu/homepage.html) up until December 2018</div>
+          <div><a href="http://schema.org/version">version:</a><br> 2.0</div>
+          <div><a href="http://schema.org/url">url:</a><br> <a href="https://doi.org/10.5281/zenodo.3926736">https://doi.org/10.5281/zenodo.3926736</a></div>
+      </div>
+    </div>
+
+    <div id="publication">
+      <div class="content">
+        <div property="schema:citation"><h1><a href="http://schema.org/citation">Publication</a></h1></div>
+          <div><a href="http://schema.org/name">name:</a><br> Similarity and Relevance of Court Decisions: A Computational Study on CJEU Cases</div>
+          <div><a href="http://schema.org/creator">authors:</a>
+            <ul>
+              
+                <li> Kody Moodley </li>
+              
+                <li> Pedro Hernandez Serrano </li>
+              
+                <li> Gijs van Dijck </li>
+              
+                <li> Michel Dumontier </li>
+              
+            </ul>
+          </div>
+          <div><a href="http://schema.org/datePublished">date published:</a><br> 2019-12-10</div>
+          <div><a href="http://schema.org/sameAs">doi/url:</a><br> <a href="https://doi.org/10.3233/FAIA190307">https://doi.org/10.3233/FAIA190307</a></div>
+          <div><a href="http://schema.org/publisher">publisher:</a><br> IOS press</div>
+          <div><a href="http://schema.org/url">publisher page:</a><br> <a href="https://www.iospress.nl">https://www.iospress.nl</a></div>
+      </div>
+    </div>
+  
+    <div id="footer">
+      <div class="footertext">
+        <p>© 2021 Maastricht Law & Tech Lab. All Rights Reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>

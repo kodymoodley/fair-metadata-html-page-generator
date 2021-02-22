@@ -1,0 +1,169 @@
+{
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    "name": "ECJ case law text similarity analysis",
+    "description": "results from a study to analyse how closely the textual similarity of ECJ cases resembles the citation network of the cases.",
+    "creator": {
+        "@type": "Person",
+        "name": "Kody Moodley",
+        "givenName": "Kody",
+        "familyName": "Moodley",
+        "image": "https://www.maastrichtuniversity.nl/sites/default/files/styles/text_with_image_mobile_portrait/public/profile/kody.moodley/kody.moodley_photo_kmoodley.jpg?itok=bN7b8s_-&timestamp=1583505301",
+        "jobTitle": "Postdoctoral researcher",
+        "email": "kody.moodley@maastrichtuniversity.nl",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Maastricht Law & Tech Lab",
+            "url": {
+                "@type": "URL",
+                "@value": "https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF"
+            }
+        }
+    },
+    "contributor": [
+        {
+            "@type": "Person",
+            "givenName": "Pedro",
+            "familyName": "Hernandez Serrano",
+            "jobTitle": "Data Scientist",
+            "email": "p.hernandezserrano@maastrichtuniversity.nl",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "Institute of Data Science",
+                "url": {
+                    "@type": "URL",
+                    "@value": "https://www.maastrichtuniversity.nl/research/institute-data-science"
+                },
+                "logo": {
+                    "@type": "ImageObject",
+                    "contentUrl": "https://avatars.githubusercontent.com/u/36262526?s=280&v=4"
+                }
+            }
+        }
+    ],
+    "publisher": {
+        "@type": "Person",
+        "name": "Kody Moodley",
+        "givenName": "Kody",
+        "familyName": "Moodley",
+        "jobTitle": "Postdoctoral researcher",
+        "email": "kody.moodley@maastrichtuniversity.nl",
+        "affiliation": {
+            "@type": "Organization",
+            "name": "Maastricht Law & Tech Lab",
+            "url": {
+                "@type": "URL",
+                "@value": "https://www.maastrichtuniversity.nl/about-um/faculties/law/research/law-and-tech-lab"
+            },
+            "logo": {
+                "@type": "ImageObject",
+                "contentUrl": "https://www.maastrichtuniversity.nl/sites/default/files/styles/page_photo/public/compacte20versie20law20and20tech20lab.jpg?itok=7lm6PEQF"
+            }
+        }
+    },
+    "version": "v2.0",
+    "license": "https://www.gnu.org/licenses/agpl-3.0.txt",
+    "encodingFormat": "CSV",
+    "dateCreated": {
+        "@type": "Date",
+        "@value": "2019-09-14"
+    },
+    "datePublished": {
+        "@type": "Date",
+        "@value": "2020-07-01"
+    },
+    "distribution": {
+        "@type": "DataDownload",
+        "contentUrl": {
+            "@type": "URL",
+            "@value": "https://zenodo.org/record/4228652/files/docona_cjeu_results_2018_v2_html.zip?download=1"
+        },
+        "encodingFormat": "application/zip",
+        "contentSize": "1.1MB"
+    },
+    "url": "https://doi.org/10.5281/zenodo.4228652",
+    "inLanguage": {
+        "@type": "Language",
+        "name": "EN",
+        "alternateName": "EN"
+    },
+    "temporalCoverage": "2019-09-14/2020-07-01",
+    "keywords": [
+        "case law",
+        "court decisions",
+        "text similarity",
+        "network analysis",
+        "word embeddings",
+        "word2vec",
+        "ecj",
+        "cjeu",
+        "EU court of justice",
+        "citations"
+    ],
+    "isBasedOn": [
+        {
+            "@type": "SoftwareApplication",
+            "name": "docona",
+            "description": "DoConA (Document Content and Citation Analysis Pipeline) is an open source, configurable and extensible Python tool to analyse the level of agreement between the citation network of a set of textual documents and the textual similarity of these documents.",
+            "applicationCategory": "Python script",
+            "operatingSystem": "cross-platform",
+            "version": "1.0",
+            "url": {
+                "@type": "URL",
+                "@value": "https://github.com/MaastrichtU-IDS/docona"
+            }
+        },
+        {
+            "@type": "CreativeWork",
+            "name": "ECJ case law and citation network",
+            "description": "Citation network and full text documents of each judgement by the Court of Justice of the European Union that was published publicly on the EUR-LEX website (https://eur-lex.europa.eu/homepage.html) up until December 2018",
+            "version": "2.0",
+            "url": {
+                "@type": "URL",
+                "@value": "https://doi.org/10.5281/zenodo.3926736"
+            }
+        }
+    ],
+    "citation": {
+        "@type": "CreativeWork",
+        "name": "Similarity and Relevance of Court Decisions: A Computational Study on CJEU Cases",
+        "creator": [
+            {
+                "@type": "Person",
+                "name": "Kody Moodley"
+            },
+            {
+                "@type": "Person",
+                "name": "Pedro Hernandez Serrano"
+            },
+            {
+                "@type": "Person",
+                "name": "Gijs van Dijck"
+            },
+            {
+                "@type": "Person",
+                "name": "Michel Dumontier"
+            }
+        ],
+        "publisher": {
+            "@type": "Organization",
+            "name": "IOS press",
+            "url": {
+                "@type": "URL",
+                "@value": "https://www.iospress.nl"
+            }
+        },
+        "datePublished": {
+            "@type": "Date",
+            "@value": "2019-12-10"
+        },
+        "sameAs": {
+            "@type": "URL",
+            "@value": "https://doi.org/10.3233/FAIA190307"
+        }
+    }
+}
