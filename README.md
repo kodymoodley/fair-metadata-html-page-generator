@@ -4,7 +4,7 @@
 
 A simple Python script to generate a static [HTML](https://html.spec.whatwg.org/) page for viewing a [JSON-LD](https://json-ld.org/) metadata description of a dataset using [Schema.org](https://schema.org/) markup vocabulary.
 
-[Structured](https://developers.google.com/search/docs/guides/intro-structured-data), machine-readable metadata about datasets are helpful for improving the [Findability, Accessibility, Interoperability and Reusability](https://www.go-fair.org/fair-principles/). [Google](https://www.google.com/), for example, is gradually developing support for [dataset search tools](https://datasetsearch.research.google.com/) to help researchers find and reuse relevant data. Providing machine-readable descriptions of datasets is helpful for search engine indexing software to process and index.
+[Structured](https://developers.google.com/search/docs/guides/intro-structured-data), machine-readable metadata about datasets are helpful for improving the [Findability, Accessibility, Interoperability and Reusability](https://www.go-fair.org/fair-principles/) of data. [Google](https://www.google.com/), for example, is gradually developing support for [dataset search tools](https://datasetsearch.research.google.com/) to help researchers find and reuse relevant data. Providing machine-readable descriptions of datasets is helpful for search engine indexing software to process and index.
 
 I have developed a Python script [here](https://github.com/kodymoodley/fair-metadata-generator) to generate such a description in JSON-LD using [Schema.org](https://schema.org/) markup vocabulary. 
 
